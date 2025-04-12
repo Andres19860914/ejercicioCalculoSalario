@@ -9,21 +9,11 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String nombreEmpleado = "";
-        String idEmpleado = "";
-        double salarioBruto = 0;
-        double salarioNeto = 0;
-        double valorHora = 0;
-        double cantidadHoras = 0;
-        double deduccionSalud = 0;
-        double deduccionPension = 0;
-        double hExtras = 0;
-        double valorhExtras = 0;
-        double bonificacion = 0;
-        double fondoSolidaridadPensional = 0;
-        double valorRetefuente = 0;
-        double auxTransporte = 0;
-        double salarioMinimo = 0;
+
+        String nombreEmpleado,idEmpleado  = "";
+
+        double salarioBruto = 0, salarioNeto = 0, valorHora = 0, cantidadHoras = 0, deduccionSalud = 0, deduccionPension = 0, hExtras = 0, valorhExtras = 0, bonificacion = 0, fondoSolidaridadPensional = 0, valorRetefuente = 0, auxTransporte = 0, salarioMinimo = 0;
+
 
 
         System.out.println("Ingrese el nombre del empleado: ");
